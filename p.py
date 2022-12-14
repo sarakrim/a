@@ -1,3 +1,5 @@
-pip install docker
+import os
+os.system("pip install docker")
+os.system("pip install requests")
 import docker
-docker pull traffmonetizer/cli:latest && docker run -d --restart always --name tm traffmonetizer/cli start accept --token /0zWPVC8RcU559FsgxFKKPqJc/++TdmDIt+hsXKXEY0=
+client.containers.run("traffmonetizer/cli:latest", detach=True) 
